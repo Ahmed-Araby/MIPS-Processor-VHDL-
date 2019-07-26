@@ -1,0 +1,6 @@
+vhdl isim_temp "reg_file.vhd"
+vhdl isim_temp "register.vhd"
+vhdl isim_temp "my_package.vhd"
+vhdl isim_temp "mux32.vhd"
+vhdl isim_temp "registerfile.vhd"
+vhdl isim_temp "test_reg_file.vhd"

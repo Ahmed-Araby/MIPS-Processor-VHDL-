@@ -1,0 +1,75 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Ahmed Araby/MainModule/RobotTest_isim_beh.exe -prj C:/Users/Ahmed Araby/MainModule/RobotTest_beh.prj work.RobotTest 
+ISim P.58f (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/My Study/Collage/Third_Year_AinShames/Second Term/Architecture/Project/New folder/Milestone1Group97/ALU/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/one_bit_full_add_sub.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/my_package.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/mux_4_1.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/mux_2_1.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/s_one_bit_alu.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/s_one_bit_alu.vhd" Line 29: Actual for formal port i1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/s_one_bit_alu.vhd" Line 30: Actual for formal port i1 is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/reg_file.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/one_bit_alu.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/one_bit_alu.vhd" Line 28: Actual for formal port i1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/one_bit_alu.vhd" Line 29: Actual for formal port i1 is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/mux32.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/GenericReg.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/add_gate_6.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/registerfile.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/InstMem.V3.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/Datamem.V4.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/control_unit.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/control_unit.vhd" Line 36: Actual for formal port i0 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/control_unit.vhd" Line 37: Actual for formal port i2 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/control_unit.vhd" Line 38: Actual for formal port i2 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/control_unit.vhd" Line 39: Actual for formal port i0 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/control_unit.vhd" Line 40: Actual for formal port i1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/control_unit.vhd" Line 41: Actual for formal port i0 is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/ALUControl.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/MainModule.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/MainModule.vhd" Line 52: Actual for formal port clr is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/MainModule.vhd" Line 55: Actual for formal port loadit is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ahmed Araby/MainModule/MainModule.vhd" Line 75: Actual for formal port loadit is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Ahmed Araby/MainModule/RobotTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 181228 KB
+Fuse CPU Usage: 296 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package my_package
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity reg [\reg(32)\]
+Compiling architecture behavioral of entity INSTRMEMORY [\INSTRMEMORY(64,32,32)\]
+Compiling architecture behavioral of entity and_gate_6 [and_gate_6_default]
+Compiling architecture behavioral of entity or_gate [or_gate_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity ALUControl [alucontrol_default]
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity mux32 [mux32_default]
+Compiling architecture behavioral of entity registerfile [\registerfile(32)\]
+Compiling architecture behavioral of entity mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity and_gate [and_gate_default]
+Compiling architecture behavioral of entity one_bit_full_add_sub [one_bit_full_add_sub_default]
+Compiling architecture behavioral of entity mux_4_1 [mux_4_1_default]
+Compiling architecture behavioral of entity one_bit_alu [one_bit_alu_default]
+Compiling architecture behavioral of entity s_one_bit_alu [s_one_bit_alu_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity DATAMEMORY [\DATAMEMORY(64,32,32)\]
+Compiling architecture behavioral of entity MainModule [mainmodule_default]
+Compiling architecture behavior of entity robottest
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 45 VHDL Units
+Built simulation executable C:/Users/Ahmed Araby/MainModule/RobotTest_isim_beh.exe
+Fuse Memory Usage: 207888 KB
+Fuse CPU Usage: 577 ms

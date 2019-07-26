@@ -1,0 +1,5 @@
+vhdl isim_temp "D:/My Study/Collage/Third_Year_AinShames/Second Term/Architecture/Project/MileStone2/HelperModules/GenericReg.vhd"
+vhdl isim_temp "reg_file.vhd"
+vhdl isim_temp "my_package.vhd"
+vhdl isim_temp "mux32.vhd"
+vhdl isim_temp "registerfile.vhd"

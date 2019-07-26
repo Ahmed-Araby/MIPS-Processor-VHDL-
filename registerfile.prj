@@ -1,0 +1,5 @@
+vhdl work "reg_file.vhd"
+vhdl work "register.vhd"
+vhdl work "pack.vhd"
+vhdl work "mux32.vhd"
+vhdl work "registerfile.vhd"

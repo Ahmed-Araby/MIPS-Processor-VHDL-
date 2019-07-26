@@ -1,0 +1,5 @@
+vhdl isim_temp "D:/My Study/Collage/Third_Year_AinShames/Second Term/Architecture/Project/New folder/Milestone1Group97/ALU/or_gate.vhd"
+vhdl isim_temp "my_package.vhd"
+vhdl isim_temp "add_gate_6.vhd"
+vhdl isim_temp "control_unit.vhd"
+vhdl isim_temp "control_unit_test.vhd"

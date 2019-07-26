@@ -1,0 +1,5 @@
+Exception at PC 0x1C89EDBC
+Attemped to read address 0x00003E60
+Printing stacktrace...
+
+Done
